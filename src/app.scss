@@ -1,0 +1,106 @@
+  
+  .last-link:hover{
+      color: chocolate !important;
+  }
+  
+  .signup-fluidcontainer {
+    .signup-container {
+      border-radius: 10px;
+      background-color: rgb(60, 59, 59);
+      margin: 3rem 12rem;
+      color: white;
+      box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+    .sideimg {
+      height: 100%;
+      width: 100%;
+    //   opacity: 80%;
+    border-radius: 10px 0px 0px 10px;
+    }
+    .input-width {
+      width: 100%;
+    }
+  }
+  
+  .login-fluidcontainer {
+    .login-container {
+        border-radius: 10px;
+        background-color: rgb(60, 59, 59);
+        margin: 3rem 12rem;
+        color: white;
+        box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+    .sideimg {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px 0px 0px 10px;
+    }
+    .logininput-width {
+      width: 20rem;
+    }
+    .login-btn {
+      width: 20rem;
+    }
+    .icon-google {
+      font-size: 25px;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .signup-fluidcontainer {
+        .signup-container {
+          border-radius: 10px;
+          background-color: rgb(60, 59, 59);
+          margin: 2rem 1rem;
+          color: white;
+        }
+        .img-col{
+            column-width: auto;
+        }
+        .sideimg {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+        .input-width {
+          width: 100%;
+        }
+      }
+
+      .login-fluidcontainer {
+        .login-container {
+          border-radius: 10px;
+          background-color: rgb(60, 59, 59);
+          margin: 2rem 1rem;
+          color: white;
+        }
+        .sideimg {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px 10px 0px 0px;
+        }
+        .logininput-width {
+          width: 90%;
+        }
+        .login-btn {
+          width: 90%;
+        }
+        .icon-google {
+          font-size: 25px;
+        }
+      }
+  }
+  
+  
+  @media only screen and (max-width: 850px) {
+    .logininput-width {
+      max-width: 100%;
+    }
+    .login-btn {
+      max-width: 100%;
+    }
+    .nav-item-login {
+      margin-left: 0rem;
+    }
+  }
+  
